@@ -1,6 +1,7 @@
 import pytest
 from selene import browser
 
+
 @pytest.fixture
 def window_size():
     browser.config.window_width = 1920
